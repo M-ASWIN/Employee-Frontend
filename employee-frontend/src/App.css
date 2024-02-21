@@ -1,0 +1,60 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h3 {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+.employee-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(https://t3.ftcdn.net/jpg/05/79/48/52/240_F_579485255_hzHox0stuQmBx5QViwnQqQjk7RD2AJza.jpg);
+}
+
+.employee-form input[type="text"],
+.employee-form input[type="number"],
+.employee-form select,
+.employee-form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.employee-form select {
+  appearance: none;
+}
+
+.employee-form label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.employee-form .radio-buttons {
+  margin-bottom: 10px;
+}
+
+.employee-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.employee-form button:hover {
+  background-color: #45a049;
+}
