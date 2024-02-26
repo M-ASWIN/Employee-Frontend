@@ -21,7 +21,7 @@ function EmployeeForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:5000/api/employees", employeeData)
+      .post("https://employee-backend-1.onrender.com/api/employees", employeeData)
       .then(() => {
         alert("Employee data submitted successfully!");
       })
