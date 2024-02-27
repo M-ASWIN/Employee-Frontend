@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-export const view = () => {
+export const View = () => {
   const [data, setData] = useState([]);
   const [alert, setAlert] = useState(null);
   const [clicked, setClicked] = useState(false);
@@ -148,4 +148,4 @@ export const view = () => {
   );
 };
 
-export default view;
+export default View;
