@@ -1,5 +1,7 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0;
+  margin-right: 0;
 }
 .h3 {
   padding-left: 30px;
@@ -9,10 +11,11 @@
 .employee-form {
   max-width: 400px;
   margin: 0 auto;
+  margin-top: 70px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  
+
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -53,8 +56,148 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .employee-form button:hover {
   background-color: #45a049;
+}
+
+.inner-div {
+  margin-top: 0;
+}
+
+.main table {
+  border-spacing: 0;
+  border: gray;
+  margin-bottom: 5px;
+  border: 1px solid;
+  border-style: initial;
+}
+.main table td {
+  border: 1px solid black;
+  border-style: initial;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.main table tr {
+  background-color: rgb(207, 207, 207);
+}
+
+.main table th {
+  border-style: initial;
+  border: 1px solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.main button {
+  background-color: red;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+  padding: 8px 16px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #45a049;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  color: #555;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  padding: 8px 16px;
+  margin: 0 4px;
+  color: #555;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.add-button {
+  margin-left: 67rem;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 7%;
+  font-size: medium;
+}
+
+.main-outer input,
+select {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.ptag {
+  font-size: x-large;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.ptag span {
+  color: #01ff0a;
+}
+
+.navbar {
+  background-color: rgb(201, 201, 201);
+  color: #000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  font-size: large;
+}
+.navbar div {
+  margin-left: 30px;
+  margin-right: auto;
+  flex: justify-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+navbar a {
+  font-size: x-large;
+  font-weight: bold;
+}
+.span {
+  color: #01ff0a;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
 }
