@@ -86,7 +86,7 @@ export const View = () => {
         </select>
 
         <Link to="/">
-          <button className="add-button">Add Books</button>
+          <button className="add-button">Add Employees</button>
         </Link>
       </div>
       <div className="main">
