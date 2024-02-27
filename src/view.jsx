@@ -15,7 +15,7 @@ export const View = () => {
 
   const getemployee = () => {
     axios
-      .get("http://localhost:5000/employee")
+      .get("https://employee-backend-1.onrender.com/employee")
       .then((result) => {
         if (result.data.Status) {
           setData(result.data.Result);
@@ -25,7 +25,7 @@ export const View = () => {
   };
   const handleDelete = (id) => {
     axios
-      .delete("http://localhost:5000/delete_employee/" + id)
+      .delete("https://employee-backend-1.onrender.com/delete_employee/" + id)
       .then((result) => {
         if (result.data.Status) {
           getemployee();
