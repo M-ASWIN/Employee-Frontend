@@ -1,4 +1,3 @@
-
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -9,8 +8,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" component={EmployeeForm} />
-        <Route path="/view" component={view} />
+        <Route path="/" element={<EmployeeForm />} />
+        <Route path="/view" element={<view />} />
       </Routes>
     </Router>
   );
